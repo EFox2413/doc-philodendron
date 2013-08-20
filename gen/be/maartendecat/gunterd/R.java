@@ -30,16 +30,16 @@ public final class R {
         public static final int ic_launcher=0x7f020006;
     }
     public static final class id {
-        public static final int ButtonAlejupa=0x7f090007;
+        public static final int ButtonAlert=0x7f09000a;
+        public static final int ButtonAnichaa=0x7f090007;
         public static final int ButtonBanaan=0x7f09000c;
         public static final int ButtonBotsen=0x7f09000e;
-        public static final int ButtonGo=0x7f09000a;
-        public static final int ButtonHandjes=0x7f090008;
+        public static final int ButtonEquanimous=0x7f090006;
         public static final int ButtonJaaaaa=0x7f09000d;
-        public static final int ButtonRoulez=0x7f090009;
-        public static final int ButtonToeter=0x7f090005;
+        public static final int ButtonMoving=0x7f090009;
+        public static final int ButtonPatiently=0x7f090008;
+        public static final int ButtonStart=0x7f090005;
         public static final int ButtonWinnaar=0x7f09000b;
-        public static final int ButtonZitten=0x7f090006;
         public static final int action_settings=0x7f09000f;
         public static final int background=0x7f090001;
         public static final int full=0x7f090002;
@@ -57,16 +57,21 @@ public final class R {
         public static final int main=0x7f080001;
     }
     public static final class raw {
-        public static final int alejupa=0x7f040000;
-        public static final int alweereenwinnaar=0x7f040001;
+        public static final int alweereenwinnaar=0x7f040000;
+        public static final int anichaa=0x7f040001;
         public static final int banaan=0x7f040002;
         public static final int blijvenzitten=0x7f040003;
-        public static final int gogogo=0x7f040004;
-        public static final int handjesindelucht=0x7f040005;
-        public static final int jaaaa=0x7f040006;
-        public static final int roulezroulez=0x7f040007;
-        public static final int schatje=0x7f040008;
-        public static final int toeter=0x7f040009;
+        public static final int equanimous=0x7f040004;
+        public static final int gogogo=0x7f040005;
+        public static final int handjesindelucht=0x7f040006;
+        public static final int jaaaa=0x7f040007;
+        public static final int keepmoving=0x7f040008;
+        public static final int patiently=0x7f040009;
+        public static final int roulezroulez=0x7f04000a;
+        public static final int schatje=0x7f04000b;
+        public static final int start=0x7f04000c;
+        public static final int toeter=0x7f04000d;
+        public static final int veryalert=0x7f04000e;
     }
     public static final class string {
         public static final int action_settings=0x7f060002;

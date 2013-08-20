@@ -43,66 +43,66 @@
                         android:src="@drawable/gunterd_logo" />
 
                     <Button
-                        android:id="@+id/ButtonToeter"
+                        android:id="@+id/ButtonStart"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:onClick="playToeter"
-                        android:text="Toeter" 
+                        android:onClick="playStart"
+                        android:text="Start practicing" 
                         android:background="@drawable/button_background"
                         android:textColor="#FFFFFF"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
                     <Button
-                        android:id="@+id/ButtonZitten"
+                        android:id="@+id/ButtonEquanimous"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/button_background"
-                        android:onClick="playBlijvenZitten"
-                        android:text="Blijven zitten"
+                        android:onClick="playEquanimous"
+                        android:text="Remain aware"
                         android:textColor="#FFFFFF"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp" />
 
                     <Button
-                        android:id="@+id/ButtonAlejupa"
+                        android:id="@+id/ButtonAnichaa"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:onClick="playAlejupa"
-                        android:text="Alejupa"
-                        android:background="@drawable/button_background"
-                        android:textColor="#FFFFFF"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp" />
-
-                    <Button
-                        android:id="@+id/ButtonHandjes"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:onClick="playHandjesInDeLucht"
-                        android:text="Handjes in de lucht"
+                        android:onClick="playAnichaa"
+                        android:text="Anichaa"
                         android:background="@drawable/button_background"
                         android:textColor="#FFFFFF"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp" />
 
                     <Button
-                        android:id="@+id/ButtonRoulez"
+                        android:id="@+id/ButtonPatiently"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:onClick="playRoulezRoulez"
-                        android:text="Roulez Roulez" 
+                        android:onClick="playPatiently"
+                        android:text="Patiently and persistently"
+                        android:background="@drawable/button_background"
+                        android:textColor="#FFFFFF"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <Button
+                        android:id="@+id/ButtonMoving"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="playMoving"
+                        android:text="Keep moving" 
                         android:background="@drawable/button_background"
                         android:textColor="#FFFFFF"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"/>
 
                     <Button
-                        android:id="@+id/ButtonGo"
+                        android:id="@+id/ButtonAlert"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:onClick="playLetsGogogo"
-                        android:text="Let&apos;s gogogo"
+                        android:onClick="playAlert"
+                        android:text="Very alert"
                         android:background="@drawable/button_background"
                         android:textColor="#FFFFFF"
                         android:layout_marginTop="5dp"
