@@ -26,14 +26,14 @@ public class MainActivity extends Activity {
                 "fonts/audiowide/Audiowide-Regular.ttf");
         Collection<Button> btns = new ArrayList<Button>();
         btns.add((Button) findViewById(R.id.ButtonAnichaa));
-        btns.add((Button) findViewById(R.id.ButtonBanaan));
-        btns.add((Button) findViewById(R.id.ButtonBotsen));
+        btns.add((Button) findViewById(R.id.ButtonBecome));
+        btns.add((Button) findViewById(R.id.ButtonLiberated));
         btns.add((Button) findViewById(R.id.ButtonAlert));
-        btns.add((Button) findViewById(R.id.ButtonPatiently));
-        btns.add((Button) findViewById(R.id.ButtonJaaaaa));
+        btns.add((Button) findViewById(R.id.ButtonSuccessful));
+        btns.add((Button) findViewById(R.id.ButtonConstantly));
         btns.add((Button) findViewById(R.id.ButtonMoving));
         btns.add((Button) findViewById(R.id.ButtonStart));
-        btns.add((Button) findViewById(R.id.ButtonWinnaar));
+        btns.add((Button) findViewById(R.id.ButtonMayAll));
         btns.add((Button) findViewById(R.id.ButtonEquanimous));
         for(Button btn: btns) {
             btn.setTypeface(tf);
@@ -72,8 +72,8 @@ public class MainActivity extends Activity {
         play(R.raw.anichaa);
     }
 
-    public void playPatiently(View view) {
-        play(R.raw.patiently);
+    public void playSuccessful(View view) {
+        play(R.raw.besuccessful);
     }
 
     public void playMoving(View view) {
@@ -84,20 +84,20 @@ public class MainActivity extends Activity {
         play(R.raw.veryalert);
     }
 
-    public void playAlweerEenWinnaar(View view) {
-        play(R.raw.alweereenwinnaar);
+    public void playMayAll(View view) {
+        play(R.raw.mayallbehappy);
     }
 
-    public void playGaanMetDieBanaan(View view) {
-        play(R.raw.banaan);
+    public void playBecomeStronger(View view) {
+        play(R.raw.becomestronger);
     }
 
-    public void playJa(View view) {
-        play(R.raw.jaaaa);
+    public void playConstantly(View view) {
+        play(R.raw.constantly);
     }
 
-    public void playEensBotsen(View view) {
-        play(R.raw.schatje);
+    public void playLiberated(View view) {
+        play(R.raw.beliberated);
     }
 
     protected void play(int resid) {
